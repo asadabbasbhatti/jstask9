@@ -1,7 +1,7 @@
-const product={
-    title:"ball pen",
-    price:20,
+const profile={
+    name:"asad",
+    followers:20,
     rating:4,
-    offer:3
+    isFollow:false,
 }
-console.log(product);
+console.log(profile);
