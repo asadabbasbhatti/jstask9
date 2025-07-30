@@ -1,3 +1,3 @@
-let fullname=prompt("enter ur full name");
-let username="@"+fullname+fullname.length;
-console.log(username)
+let companies=["dell" ,"pansonic" ,"hp" ,"aws"];
+companies.shift();
+companies.splice(2,1,"ola");
