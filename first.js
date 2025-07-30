@@ -1,12 +1,6 @@
-function countvowels(str){
-    let count=0;
-    for (const char of str) {
-        if(char ==="a"||
-            char ==="e"||
-            char ==="i"||
-            char ==="o"||
-            char ==="u")
-            count++;
-    }
-    console.log(count);
-}
+let marks=[97,64,23,44,66,88,99];
+let toppers=marks.filter((val) =>
+{
+    return val>90;
+})
+console.log(toppers);
