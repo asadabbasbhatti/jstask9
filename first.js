@@ -1,6 +1,10 @@
-let marks=[97,64,23,44,66,88,99];
-let toppers=marks.filter((val) =>
-{
-    return val>90;
+let n = prompt("enter a number");
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;
+    
+}
+console.log(arr);
+let sum=arr.reduce((res,cur)=>{
+    return res+curr;
 })
-console.log(toppers);
