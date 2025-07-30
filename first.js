@@ -1,3 +1,12 @@
-let companies=["dell" ,"pansonic" ,"hp" ,"aws"];
-companies.shift();
-companies.splice(2,1,"ola");
+function countvowels(str){
+    let count=0;
+    for (const char of str) {
+        if(char ==="a"||
+            char ==="e"||
+            char ==="i"||
+            char ==="o"||
+            char ==="u")
+            count++;
+    }
+    console.log(count);
+}
