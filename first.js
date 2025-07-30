@@ -1,6 +1,3 @@
-for (let num=1;num<=100;num++)
-{
-    if (num%2===0){
-        console.log(num)
-    }
-}
+let fullname=prompt("enter ur full name");
+let username="@"+fullname+fullname.length;
+console.log(username)
