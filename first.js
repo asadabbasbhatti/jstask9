@@ -1,10 +1,6 @@
-let score=75;
-let grade;
-if (score >= 80 && score <= 100){
-    grade="A";
-}else if (score >= 60 && score <=79)
+for (let num=1;num<=100;num++)
 {
-    grade="B";
+    if (num%2===0){
+        console.log(num)
+    }
 }
-else {grade="F";}
-console.log("ur grade is",grade);
